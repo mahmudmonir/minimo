@@ -46,6 +46,7 @@ Header {
     display: inline-block;
     margin: 0 50px;
     color: #626262;
+    border-bottom: 1px solid transparent;
 }
 
 .menu ul li:hover a {
@@ -144,7 +145,7 @@ Header {
     margin: 0 auto;
     position: relative;
     background-color: transparent;
-    
+
 }
 
 .s_form input {
@@ -157,7 +158,7 @@ Header {
     background-color: transparent;
     padding-left: 5px;
     padding-right: 15px;
-    
+
 
 }
 
@@ -202,7 +203,31 @@ Header {
     color: white;
 }
 
-.fotter{
+.fotter {
     background-color: #ddd;
-    min-height: 100px
+    min-height: 100px;
+    line-height: 50px;
+}
+
+.terms {
+    overflow: hidden;
+}
+
+.terms ul {
+    display: block;
+}
+
+.terms ul li {
+    list-style: none;
+}
+
+.terms ul li a {
+    text-decoration: none;
+    display: inline-block;
+    float: left;
+    margin-left: 30px;
+}
+
+.terms ul li:last-child a {
+    margin-right: 0;
 }
